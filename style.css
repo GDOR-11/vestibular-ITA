@@ -44,6 +44,20 @@ header {
 main {
     flex-grow: 1;
     background-color: #c8d8ff;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.contentbox {
+    border-radius: 1em;
+    background-color: #d0cbc8;
+    padding: 2em;
+    box-sizing: border-box;
+}
+.contentbox-title {
+    margin: 0;
 }
 
 footer {
