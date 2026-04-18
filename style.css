@@ -88,8 +88,21 @@ main {
     background-color: #c8d8ff;
     padding: 4em;
     display: flex;
+
+    @media screen and (width >= 55em) {
+        padding: 4em;
+        gap: 4em;
+    }
+    @media screen and (width < 55em) {
+        flex-direction: column;
+        padding: 3em;
+        gap: 6em;
+    }
+}
+#permanent-content,#dynamic-content {
+    display: flex;
     flex-direction: column;
-    gap: 3em;
+    gap: 2em;
 }
 
 .contentbox {
