@@ -8,19 +8,6 @@ body {
 
 header {
     width: 100%;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media screen and (width >= 46em) {
-        position: sticky;
-        top: 0px;
-    }
-}
-
-#main-header {
-    width: 100%;
     min-height: 10em;
     box-sizing: border-box;
     padding: 1.5em;
@@ -35,6 +22,8 @@ header {
 }
 
 #documents {
+        position: sticky;
+        top: 0px;
     width: 100%;
     min-height: 5em;
     margin: 0;
